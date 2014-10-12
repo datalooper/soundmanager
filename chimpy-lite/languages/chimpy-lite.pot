@@ -1,0 +1,890 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Chimpy Lite\n"
+"POT-Creation-Date: 2014-04-03 15:53+0300\n"
+"PO-Revision-Date: 2014-04-03 15:53+0300\n"
+"Last-Translator: \n"
+"Language-Team: RightPress <info@rightpress.net>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /var/www/latest/wp-content/plugins/chimpy-lite\n"
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:324
+#, php-format
+msgid ""
+"Warning: PHP cURL extension is not enabled on this server. cURL is required "
+"for this plugin to function correctly. You can read more about cURL <a href="
+"\"%s\">here</a>."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:505
+msgid "How do I display my forms?"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:547
+msgid "<p>Title of the form - will be displayed in a signup form header.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:548
+msgid "<p>Message to display above form fields.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:549
+msgid "<p>Message to display below form fields.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:550
+msgid "<p>Form submit button label.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:551
+msgid ""
+"<p>Select one of the predefined color schemes. You can further customize the "
+"look & feel of your forms by adding custom CSS rules to Settings > Override "
+"CSS.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:552
+msgid ""
+"<p>Optionaly provide an URL where subscribers should be redirected to after "
+"successful signup.</p> <p>Leave this field empty to simply display a thank "
+"you message.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:553
+msgid ""
+"<p>Select one of your MailChimp mailing lists for users to be subscribed to."
+"</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:554
+msgid ""
+"<p>Select interest groups that you want to add automatically or allow users "
+"to choose in the form.</p> <p>If no interest groups are available, either "
+"mailing list has not been selected yet in the field above or you have no "
+"interest groups created for this list.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:555
+msgid ""
+"<p>Select how you would like interest groups to work with this form - you "
+"can either add all selected interest groups to subscribers profile by "
+"default or allow your visitors to manually select some.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:556
+msgid ""
+"<p>Controls on which parts of the website this form will appear (or not "
+"appear).</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:557
+msgid "<p>List of pages to check current page against.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:558
+msgid "<p>List of posts to check current post against.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:559
+msgid "<p>List of post categories to check current post against.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:560
+msgid "<p>URL fragment to search in the URL of the page.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:569
+msgid "Still connecting to MailChimp..."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:570
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:166
+msgid "Mailing list"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:571
+msgid "There are no lists named"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:572
+msgid "Select a mailing list"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:573
+msgid "Selected list does not have groups named"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:574
+msgid "Select some groups (optional)"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:575
+msgid "Interest groups"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:576
+msgid "Field Label"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:577
+msgid "MailChimp Tag"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:578
+msgid "Icon"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:579
+msgid "Add Field"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:580
+msgid "Selected list does not have tags named"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:581
+msgid "Select a tag"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:582
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:908
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:914
+msgid "Connecting to MailChimp..."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:583
+msgid "No pages named"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:584
+msgid "Select some pages"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:585
+msgid "No posts named"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:586
+msgid "Select some posts"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:587
+msgid "No post categories named"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:588
+msgid "Select some post categories"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:589
+msgid "No forms named"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:590
+msgid "Select some forms (optional)"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:591
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:869
+msgid "Signup Form #"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:592
+msgid "Email"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:593
+msgid "Submit"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:595
+#, php-format
+msgid ""
+"%s Response received from your server is <a href=\"%s\" target=\"_blank"
+"\">malformed</a>."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:596
+msgid "Integration status"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:632
+#, php-format
+msgid ""
+"You must <a href=\"%s\">enter</a> your MailChimp API key to use this feature."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:752
+msgid "Automatically"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:754
+msgid "All groups selected above"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:758
+msgid "Allow users to select (optional)"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:760
+msgid "Checkbox group for each grouping"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:761
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:768
+msgid "Radio button group for each grouping"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:762
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:769
+msgid "Select field (dropdown) for each grouping"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:766
+msgid "Require users to select (required)"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:779
+msgid "No condition"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:781
+msgid "Always display this form"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:782
+msgid "Disable this form"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:786
+msgid "Conditions"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:788
+msgid "Front page only"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:789
+msgid "Specific pages"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:790
+msgid "Specific posts"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:791
+msgid "Specific post categories"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:792
+msgid "URL contains"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:796
+msgid "Inversed Conditions"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:798
+msgid "Pages not"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:799
+msgid "Posts not"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:800
+msgid "Post categories not"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:801
+msgid "URL does not contain"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:810
+msgid "Cyan"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:811
+msgid "Red"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:812
+msgid "Orange"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:813
+msgid "Green"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:814
+msgid "Purple"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:815
+msgid "Pink"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:816
+msgid "Yellow"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:817
+msgid "Blue"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:818
+msgid "Black"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:869
+msgid "Remove"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:872
+msgid "Main Settings"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:875
+msgid "Form title"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:879
+msgid "Text above form"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:883
+msgid "Text below form"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:887
+msgid "Submit button label"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:891
+msgid "Color scheme"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:925
+msgid "Add Form"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:925
+msgid "Multiple forms are supported in PRO version only."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:936
+msgid "Widget"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:937
+#, php-format
+msgid ""
+"Display a form on a sidebar of your choice by using a standard WordPress "
+"Widget. Go to the <a href=\"%s\">Widgets page</a> and use the one named "
+"MailChimp Signup (Chimpy Lite)."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:939
+msgid "Shortcode"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:940
+msgid ""
+"Insert a form into individual posts or pages by placing a shortcode anywhere "
+"in the content."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:942
+msgid "Function"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:943
+msgid ""
+"To display a form in nonstandard parts of your website, take advantage of "
+"the PHP function <code>chimpy_lite_form()</code>.<br />Make sure to include "
+"it <strong>above</strong> the <code>wp_footer()</code> function in your "
+"theme."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1494
+msgid "Your settings have been saved."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1500
+msgid "must be numeric"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1501
+msgid "must be either 0 or 1"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1502
+msgid "is not allowed"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1503
+msgid "is not a valid email address"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1504
+msgid "is not a valid URL"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1505
+msgid "is not a valid text string"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1511
+msgid "Reverted to a previous state."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1517
+msgid "Value of"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1543
+msgid " is not valid or something went wrong. More details: "
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1760
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:19
+msgid "Settings"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1861
+msgid "Unable to load lists"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1867
+msgid "No lists found"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1907
+msgid "Unable to load merge vars"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1913
+msgid "No merge vars found"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1959
+msgid "Unable to load groups"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:1967
+msgid "No groups found"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2048
+msgid "No API key provided"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2053
+msgid "PHP Curl extension not loaded on your server"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2065
+msgid "Unable to initialize MailChimp class"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2082
+msgid "Something went wrong..."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2141
+msgid "API key not set"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2144
+msgid "Connected to account"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2147
+msgid "Connection to MailChimp failed."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2951
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:195
+msgid "dd/mm/yyyy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2957
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:196
+msgid "dd-mm-yyyy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2963
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:197
+msgid "dd.mm.yyyy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2969
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:198
+msgid "mm/dd/yyyy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2975
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:199
+msgid "mm-dd-yyyy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2981
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:200
+msgid "mm.dd.yyyy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2987
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:201
+msgid "yyyy/mm/dd"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2993
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:202
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:2999
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:203
+msgid "yyyy.mm.dd"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3005
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:204
+msgid "dd/mm/yy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3011
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:205
+msgid "dd-mm-yy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3017
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:206
+msgid "dd.mm.yy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3023
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:207
+msgid "mm/dd/yy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3029
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:208
+msgid "mm-dd-yy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3035
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:209
+msgid "mm.dd.yy"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3041
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:210
+msgid "yy/mm/dd"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3047
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:211
+msgid "yy-mm-dd"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3053
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:212
+msgid "yy.mm.dd"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3061
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:224
+msgid "dd/mm"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3067
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:225
+msgid "dd-mm"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3073
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:226
+msgid "dd.mm"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3079
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:227
+msgid "mm/dd"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3085
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:228
+msgid "mm-dd"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/chimpy-lite.php:3091
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:229
+msgid "mm.dd"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:13
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:14
+msgid "MailChimp"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:23
+msgid "Integration"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:26
+msgid "MailChimp API key"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:33
+msgid ""
+"<p>API key is required for this plugin to communicate with MailChimp servers."
+"</p> <p>To get an API key, login to your MailChimp account and navigate to "
+"Account Settings > Extras > API keys.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:38
+msgid "General Settings"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:41
+msgid "Require double opt-in"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:48
+msgid ""
+"<p>Controls whether a double opt-in confirmation message is sent before user "
+"is actually subscribed.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:51
+msgid "Send welcome email"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:58
+msgid ""
+"<p>If double opt-in is disabled and this setting is enabled, MailChimp will "
+"send your lists Welcome Email on user subscription. This has no effect if "
+"double opt-in is enabled.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:61
+msgid "Update existing subscribers"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:68
+msgid ""
+"<p>Control whether existing subscribers are updated when they fill out the "
+"signup form again or error is displayed. This has no effect for Sync "
+"functionality.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:73
+msgid "Form Styling"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:76
+msgid "Display field labels inline"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:83
+msgid ""
+"<p>Controls whether signup form field labels are displayed inside fields as "
+"value placeholders (inline) or above fields.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:86
+msgid "Max form width in pixels"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:93
+msgid ""
+"<p>If your website features a wide layout, you may wish to set the max width "
+"for the form to look better.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:96
+msgid "Override CSS"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:103
+msgid ""
+"<p>You can further customize the appearance of your signup forms by adding "
+"custom CSS to this field. To make changes to the style, simply use CSS class "
+"chimpy_lite_custom_css as a basis.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:110
+msgid "Forms"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:114
+msgid "Manage Signup Forms"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:121
+msgid "Checkbox"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:125
+msgid "Display Checkbox Below Forms"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:128
+msgid "Add signup checkbox to"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:136
+msgid "Registration Form"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:137
+msgid "Comments Form"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:139
+msgid ""
+"<p>Select WordPress forms where you would like mailing list opt-in checkbox "
+"to appear.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:142
+msgid "Checkbox label"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:144
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:149
+msgid "<p>Label to display next to the checkbox.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:152
+msgid "Default state"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:160
+msgid "Not Checked"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:161
+msgid "Checked"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:163
+msgid "<p>Default checkbox state.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:173
+msgid ""
+"<p>Select one of your MailChimp mailing lists to subscribe visitors to.</p> "
+"<p>To save additional fields, create merge tags FNAME, LNAME, ROLE and "
+"USERNAME under your list settings in MailChimp.</p>"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:180
+msgid "Localization"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:184
+msgid "Date Format"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:187
+msgid "Date field format"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:216
+msgid "Birthday field format"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:235
+msgid "Labels"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:238
+msgid "Subscribed successfully"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:240
+msgid "Thank you for signing up!"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:247
+msgid "(Error) Required field empty"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:249
+msgid "Please enter a value"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:256
+msgid "(Error) Invalid format"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:258
+msgid "Invalid format"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:265
+msgid "(Error) Value not a number"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:267
+msgid "Please enter a valid number"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:274
+msgid "(Error) Already subscribed"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:276
+msgid "You are already subscribed to this list"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:283
+msgid "(Error) Unknown error"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:285
+msgid "Unknown error. Please try again later."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:300
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:316
+msgid "Displaying Forms"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:305
+msgid "Get In Touch"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-plugin-structure.inc.php:321
+msgid "Get Pro"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-widget.class.php:22
+msgid "MailChimp Signup (Chimpy Lite)"
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-widget.class.php:24
+msgid "Widget displays a signup form, if enabled under MailChimp settings."
+msgstr ""
+
+#: /var/www/latest/wp-content/plugins/chimpy-lite/includes/chimpy-lite-widget.class.php:109
+#, php-format
+msgid ""
+"This widget renders a MailChimp signup form.<br />You can edit your signup "
+"form <a href=\"%s\">here</a>."
+msgstr ""

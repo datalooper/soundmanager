@@ -1,0 +1,24 @@
+/**/
+/* defaults */
+/**/
+.sky-form header {
+	background: rgb(248,248,248);
+}
+.sky-form fieldset {
+	background: rgb(255,255,255);
+}
+.sky-form footer {
+	background: rgb(248,248,248);
+}
+
+/**/
+/* radios and checkboxes */
+/**/
+.sky-form .radio input + i:after,
+.sky-form .checkbox input + i:after {
+	display: none;
+}
+.sky-form .radio .checked + i:after,
+.sky-form .checkbox .checked + i:after {
+	display: block;
+}

@@ -1,0 +1,215 @@
+/**/
+/* BLACK */
+/**/
+.sky-form-black footer button.button {
+	background-color: #222;
+}
+
+.sky-form-black .input:hover input,
+.sky-form-black .select:hover select,
+.sky-form-black .radio:hover i {
+	border-color: #909090;
+}
+
+.sky-form-black .input input:focus,
+.sky-form-black .select select:focus,
+.sky-form-black .radio input:focus + i {
+	border-color: #222;
+}
+
+.sky-form-black .radio input + i:after {
+	background-color: #222;	
+}
+
+.sky-form-black .radio input:checked + i {
+	border-color: #222;	
+}
+
+/**/
+/* BLUE */
+/**/
+.sky-form-blue footer button.button {
+	background-color: #2a70e8;
+}
+
+.sky-form-blue .input:hover input,
+.sky-form-blue .select:hover select,
+.sky-form-blue .radio:hover i {
+	border-color: #94b7f3;
+}
+
+.sky-form-blue .input input:focus,
+.sky-form-blue .select select:focus,
+.sky-form-blue .radio input:focus + i {
+	border-color: #2a70e8;
+}
+
+.sky-form-blue .radio input + i:after {
+	background-color: #2a70e8;	
+}
+
+.sky-form-blue .radio input:checked + i {
+	border-color: #2a70e8;	
+}
+
+/**/
+/* GREEN */
+/**/
+.sky-form-green footer button.button {
+	background-color: #43bf43;
+}
+
+.sky-form-green .input:hover input,
+.sky-form-green .select:hover select,
+.sky-form-green .radio:hover i {
+	border-color: #91e393;
+}
+
+.sky-form-green .input input:focus,
+.sky-form-green .select select:focus,
+.sky-form-green .radio input:focus + i {
+	border-color: #43bf43;
+}
+
+.sky-form-green .radio input + i:after {
+	background-color: #43bf43;	
+}
+
+.sky-form-green .radio input:checked + i {
+	border-color: #43bf43;	
+}
+
+/**/
+/* ORANGE */
+/**/
+.sky-form-orange footer button.button {
+	background-color: #fd7337;
+}
+
+.sky-form-orange .input:hover input,
+.sky-form-orange .select:hover select,
+.sky-form-orange .radio:hover i {
+	border-color: #f5b093;
+}
+
+.sky-form-orange .input input:focus,
+.sky-form-orange .select select:focus,
+.sky-form-orange .radio input:focus + i {
+	border-color: #fd7337;
+}
+
+.sky-form-orange .radio input + i:after {
+	background-color: #fd7337;	
+}
+
+.sky-form-orange .radio input:checked + i {
+	border-color: #fd7337;	
+}
+
+/**/
+/* PINK */
+/**/
+.sky-form-pink footer button.button {
+	background-color: #d2477e;
+}
+
+.sky-form-pink .input:hover input,
+.sky-form-pink .select:hover select,
+.sky-form-pink .radio:hover i {
+	border-color: #df9ab7;
+}
+
+.sky-form-pink .input input:focus,
+.sky-form-pink .select select:focus,
+.sky-form-pink .radio input:focus + i {
+	border-color: #d2477e;
+}
+
+.sky-form-pink .radio input + i:after {
+	background-color: #d2477e;	
+}
+
+.sky-form-pink .radio input:checked + i {
+	border-color: #d2477e;	
+}
+
+/**/
+/* PURPLE */
+/**/
+.sky-form-purple footer button.button {
+	background-color: #ad3bc4;
+}
+
+.sky-form-purple .input:hover input,
+.sky-form-purple .select:hover select,
+.sky-form-purple .radio:hover i {
+	border-color: #cd94da;
+}
+
+.sky-form-purple .input input:focus,
+.sky-form-purple .select select:focus,
+.sky-form-purple .radio input:focus + i {
+	border-color: #ad3bc4;
+}
+
+.sky-form-purple .radio input + i:after {
+	background-color: #ad3bc4;	
+}
+
+.sky-form-purple .radio input:checked + i {
+	border-color: #ad3bc4;	
+}
+
+/**/
+/* RED */
+/**/
+.sky-form-red footer button.button {
+	background-color: #cc3d3d;
+}
+
+.sky-form-red .input:hover input,
+.sky-form-red .select:hover select,
+.sky-form-red .radio:hover i {
+	border-color: #dc9596;
+}
+
+.sky-form-red .input input:focus,
+.sky-form-red .select select:focus,
+.sky-form-red .radio input:focus + i {
+	border-color: #cc3d3d;
+}
+
+.sky-form-red .radio input + i:after {
+	background-color: #cc3d3d;	
+}
+
+.sky-form-red .radio input:checked + i {
+	border-color: #cc3d3d;	
+}
+
+/**/
+/* YELLOW */
+/**/
+.sky-form-yellow footer button.button {
+	background-color: #ffc228;
+}
+
+.sky-form-yellow .input:hover input,
+.sky-form-yellow .select:hover select,
+.sky-form-yellow .radio:hover i {
+	border-color: #ffe782;
+}
+
+.sky-form-yellow .input input:focus,
+.sky-form-yellow .select select:focus,
+.sky-form-yellow .radio input:focus + i {
+	border-color: #ffc228;
+}
+
+.sky-form-yellow .radio input + i:after {
+	background-color: #ffc228;	
+}
+
+.sky-form-yellow .radio input:checked + i {
+	border-color: #ffc228;	
+}

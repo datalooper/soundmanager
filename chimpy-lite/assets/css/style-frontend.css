@@ -1,0 +1,179 @@
+/**
+ * Chimpy Lite Plugin Styles
+ */
+
+/* Reset all styles */
+.chimpy-lite-reset,
+.chimpy-lite-reset div,
+.chimpy-lite-reset span,
+.chimpy-lite-reset h1,
+.chimpy-lite-reset h2,
+.chimpy-lite-reset h3,
+.chimpy-lite-reset h4,
+.chimpy-lite-reset h5,
+.chimpy-lite-reset h6,
+.chimpy-lite-reset p,
+.chimpy-lite-reset a,
+.chimpy-lite-reset img,
+.chimpy-lite-reset fieldset,
+.chimpy-lite-reset form,
+.chimpy-lite-reset label,
+.chimpy-lite-reset legend,
+.chimpy-lite-reset table,
+.chimpy-lite-reset caption,
+.chimpy-lite-reset tbody,
+.chimpy-lite-reset tfoot,
+.chimpy-lite-reset thead,
+.chimpy-lite-reset tr,
+.chimpy-lite-reset th,
+.chimpy-lite-reset td,
+.chimpy-lite-reset button,
+.chimpy-lite-reset button:hover,
+.chimpy-lite-reset button:active,
+.chimpy-lite-reset button:focus {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    font-weight: normal;
+    color: #000;
+    background: 0;
+    vertical-align: baseline;
+}
+
+.chimpy-lite-reset table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-bottom: 0;
+    border: 0;
+}
+
+.chimpy-lite-reset ol,
+.chimpy-lite-reset ul {
+    list-style: none;
+}
+
+.chimpy-lite-reset caption,
+.chimpy-lite-reset th {
+    text-align: left;
+}
+
+.chimpy-lite-reset input,
+.chimpy-lite-reset label {
+    display: block;
+}
+
+.chimpy-lite-reset button,
+.chimpy-lite-reset input,
+.chimpy-lite-reset textarea,
+.chimpy-lite-reset select {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 100%;
+    outline: 0;
+    color: #000;
+}
+
+.chimpy-lite-reset input:focus,
+.chimpy-lite-reset textarea:focus {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.chimpy-lite-reset button,
+.chimpy-lite-reset input {
+    line-height: normal;
+}
+
+.chimpy-lite-reset th,
+.chimpy-lite-reset tr,
+.chimpy-lite-reset td {
+  border-top: 0;
+  border-bottom: 0;
+  border: 0 !important;
+}
+
+/* Form states */
+div.chimpy_lite_status_underlay {
+    background-color: #efefef;
+}
+
+div.chimpy_lite_signup_processing {
+    background-color: #fff;
+    background-image: url(./../img/progress.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 54px;
+}
+
+div.chimpy_lite_signup_error {
+    background-color: #fff;
+    display: table;
+    overflow: hidden;
+    text-align: center;
+    min-height: 54px;
+    width: 100%;
+}
+
+div.chimpy_lite_signup_error div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px 10px;
+    color: #ee9393;
+    font-size: 14px;
+}
+
+div.chimpy_lite_signup_success {
+    background-color: #fff;
+    display: table;
+    overflow: hidden;
+    text-align: center;
+    min-height: 54px;
+    width: 100%;
+}
+
+div.chimpy_lite_signup_success div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px 10px;
+    color: #6fb679;
+    font-size: 14px;
+}
+
+div.chimpy_lite_lock_box {
+    padding: 5% 0 10% 0;
+    border: 1px solid rgba(0,0,0,.1);
+    background-color: rgba(248,248,248,.2);
+}
+
+div.chimpy_lite_lock_content {
+    width: 80%;
+}
+
+div.chimpy_lite_lock_title {
+    display: block;
+    padding: 0 10% 20px 10%;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #232323;
+}
+
+div.chimpy_lite_lock_message {
+    display: block;
+    padding: 0 10% 40px 10%;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+}

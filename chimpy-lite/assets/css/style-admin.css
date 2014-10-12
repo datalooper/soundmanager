@@ -1,0 +1,375 @@
+/**
+ * Chimpy Plugin Styles
+ */
+.chimpy-lite-container {
+    min-width: 870px;
+}
+
+.chimpy-lite-left {
+    width: 850px;
+    float: left;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    background-color: #fcfcfc;
+}
+
+.chimpy-lite-right {
+    width: 350px;
+    float: left;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    background-color: #fcfcfc;
+    margin-left: 10px;
+}
+
+.chimpy-lite-left h3,
+.chimpy-lite-right h3 {
+    padding: 10px 0 10px 15px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.chimpy-lite-left .form-table,
+.chimpy-lite-right .form-table {
+    margin: 10px 0 10px 15px;
+    width: auto;
+}
+
+.chimpy-lite-left .submit,
+.chimpy-lite-right .submit {
+    border-top: 1px solid #dfdfdf;
+    padding: 15px 0 10px 15px;
+}
+
+.chimpy-lite-test-result-details {
+    border-top: 1px solid #dfdfdf;
+    padding: 15px 0 13px 15px;
+    margin: 0;
+}
+
+.chimpy-lite-left .form-table th {
+    width: 300px;
+}
+
+.chimpy-lite-right .form-table th {
+    width: 70px;
+    min-width: 70px;
+}
+
+.chimpy-lite-field {
+    width: 400px;
+}
+
+.chimpy-lite-right .form-table input,
+.chimpy-lite-right .form-table select,
+.chimpy-lite-right .form-table textarea {
+    width: 210px;
+}
+
+.chimpy-lite-textarea {
+    width: 400px;
+    height: 100px;
+}
+
+.chimpy-lite-right-info {
+    width: 300px;
+    padding: 0 0 10px 20px;
+    float: left;
+    display: block;
+}
+
+.chimpy-lite-status {
+    padding: 15px 0px 10px 25px;
+}
+
+.chimpy-lite-usage {
+    width: 650px;
+    padding: 15px 0px 0px 25px;
+}
+
+.chimpy-lite-usage ul {
+    list-style: circle;
+}
+
+.chimpy-lite-usage li {
+    margin-left: 30px;
+}
+
+.chimpy-lite-list-groups {
+    padding: 15px 0px 20px 25px;
+}
+
+.chimpy-lite-forms {
+    padding: 15px 0px 20px 25px;
+}
+
+.chimpy-lite-section-info {
+    padding: 10px 25px 10px 25px;
+}
+
+.chimpy-lite-section-info-get-pro {
+    
+}
+
+.chimpy-lite-get-pro-left {
+    float: left;
+    padding-bottom: 15px;
+}
+
+.chimpy-lite-get-pro-right {
+    float: right;
+    width: 300px;
+    height: 100%;
+    padding-top: 180px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#chimpy_lite_forms_list,
+#chimpy_lite_sync_list {
+    max-width: 800px;
+}
+
+.chimpy_lite_forms_handle {
+    height: 16px;
+}
+
+.chimpy_lite_forms_title {
+    float: left;
+}
+
+.chimpy_lite_forms_remove {
+    float: right;
+}
+
+#chimpy_lite_add_set {
+    float: right;
+    margin: 10px 25px 0 0;
+}
+
+#chimpy_lite_add_field {
+    margin: 10px 0;
+}
+
+.chimpy_lite_forms_section {
+    margin: 10px 0;
+    font-size: 1.17em;
+    font-weight: bold;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #464646;
+}
+
+.chimpy_lite_fields_table_container {
+    margin-left: 25px;
+}
+
+.ui-accordion .ui-accordion-content {
+    overflow: visible;
+}
+
+.chimpy-lite-fields {
+    padding: 15px 0px 20px 25px;
+}
+
+.chimpy-lite-fields ul {
+    list-style: circle;
+}
+
+.chimpy-lite-fields li {
+    margin-left: 30px;
+}
+
+.chimpy-lite-fields table,
+.chimpy-lite-fields thead,
+.chimpy-lite-fields tbody,
+.chimpy-lite-fields tr,
+.chimpy-lite-fields th,
+.chimpy-lite-fields td {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.chimpy-lite-fields th,
+.chimpy-lite-fields td {
+    padding: 5px;
+}
+
+.chimpy_lite_remove_field {
+    font-size: 13px;
+}
+
+.chimpy_lite_name_input {
+    width: 256px;
+}
+
+.chimpy_lite_fields_icon {
+    font-family: 'FontAwesome' !important;
+    font-size: 80%;
+    color: #555;
+}
+
+.chimpy_lite_fields_table {
+    margin: 10px 0 10px 15px;
+}
+
+.chimpy_lite_fields_table th,
+.chimpy_lite_fields_table td {
+    border-left: 5px solid transparent;
+}
+
+.chimpy_lite_fields_table td {
+    border-top: 5px solid transparent;
+}
+
+.chimpy_lite_fields_table th:first-child,
+.chimpy_lite_fields_table td:first-child {
+    border-left: 0;
+}
+
+.chimpy_lite_fields_table thead tr th {
+    text-align: left;
+    font-weight: normal;
+}
+
+.icon32-chimpy {
+}
+
+.chimpy-lite-ok {
+    background: url(../img/good.png)  center right no-repeat;
+    background-size: 16px 16px;
+    line-height: 16px;
+    padding-right: 16px;
+    margin-right: 15px;
+}
+
+.chimpy-lite-error {
+    background: url(../img/bad.png)  center right no-repeat;
+    background-size: 16px 16px;
+    line-height: 16px;
+    padding-right: 16px;
+    margin-right: 15px;
+}
+
+.chimpy-lite-code {
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #ffffff;
+    font-size: 15px;
+}
+
+.chimpy-lite-account-info td {
+    padding: 5px 20px 5px 0;
+}
+
+.chimpy_lite_tip{
+    position: relative;
+    float: right;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    color: #dfdfdf;
+}
+
+.chimpy_lite_tip:hover{
+    color: #000;
+}
+
+li.search-choice {
+    background-color: #ffffff !important;
+    background: 0 !important;
+}
+
+.chimpy_lite_loading {
+    margin: 0px;
+    padding: 0px;
+}
+
+.chimpy_lite_loading_list {
+    margin: 20px 0 20px 25px;
+}
+
+.chimpy_lite_loading_icon {
+    background: url(../img/progress.gif)  center left no-repeat;
+    background-size: 16px 16px;
+    line-height: 16px;
+    padding-right: 16px;
+    margin-right: 10px;
+}
+
+.chimpy_lite_shortcode_loading {
+    background: url(../img/progress.gif)  center center no-repeat;
+    background-size: 16px 16px;
+    line-height: 16px;
+    padding-right: 16px;
+    width: 100px;
+    height: 50px;
+    display: none;
+}
+
+#chimpy_lite_shortcode_error {
+    color: red;
+    display: none;
+}
+
+#chimpy_lite_shortcode_success {
+    color: green;
+    display: none;
+}
+
+.chimpy_lite_widget_loading {
+    background: url(../img/progress.gif)  center center no-repeat;
+    background-size: 16px 16px;
+    line-height: 16px;
+    padding-right: 16px;
+    width: 100px;
+    height: 50px;
+    display: none;
+}
+
+#chimpy_lite_widget_error {
+    color: red;
+    display: none;
+}
+
+#chimpy_lite_widget_success {
+    color: green;
+    display: none;
+}
+
+.chimpy-lite-get-pro-button {
+    text-align: center;
+    width: 250px;
+    padding: 10px 25px 10px 25px;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #98ba3f;
+    text-shadow: -1px -1px 2px #618926;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 1px solid #618926;
+}
+
+.chimpy-lite-get-pro-button:hover {
+    color: #ffffff;
+    text-shadow: -1px -1px 2px #465f97;
+    background-color: #245191;
+    border: 1px solid #0f2557;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.chosen-container {
+    font-size: 12px !important;
+}
